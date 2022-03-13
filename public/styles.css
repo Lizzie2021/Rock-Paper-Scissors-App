@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+
+header {
+  background-color: #85c88a;
+  margin: auto -16px 10px -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+
+  font-weight: 200;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.container h1 {
+  margin: 30px;
+
+  font-size: 1.5rem;
+  color: #393e46;
+}
+.yourChoice h1 {
+  display: inline-block;
+}
+
+.radio {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #393e46;
+}
+.radio span {
+  margin-right: 2rem;
+}
+.radio input {
+  height: 25px;
+  width: 25px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+button {
+  margin: 20px;
+  background: #ffd32d;
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 80%;
+  width: 100px;
+  height: 72px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+.yourChoice {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  /* margin-left: 16%; */
+}
+.computerChoice {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  /* margin-left: 16%; */
+}
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+.result h1 {
+  font-size: 8rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .yourChoice {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .computerChoice {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .radio {
+    margin: 10px auto 20px 40px;
+    font-size: 1.2rem;
+    color: #393e46;
+  }
+  .radio span {
+    display: block;
+    margin-right: 2rem;
+    text-align: left;
+  }
+  .result h1 {
+    font-size: 4rem;
+    color: #4ecca3;
+    font-family: "Indie Flower", cursive;
+  }
+}
